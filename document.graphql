@@ -1,3 +1,5 @@
 query GetAccount {
-  account
+  account {
+    uid
+  }
 }

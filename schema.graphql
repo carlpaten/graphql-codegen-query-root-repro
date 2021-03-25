@@ -1,3 +1,11 @@
+schema {
+  query: query_root
+}
+
+type account {
+  uid: String!
+}
+
 type query_root {
-  account: String!
+  account: [account!]!
 }
